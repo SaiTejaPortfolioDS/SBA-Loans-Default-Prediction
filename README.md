@@ -1,11 +1,11 @@
-# 💼 SBA Loan Default Prediction (Full Training Pipeline)
+# SBA Loan Default Prediction (Full Training Pipeline)
 
 A comprehensive machine learning pipeline designed to **predict the likelihood of Small Business Administration (SBA) loan default** using real-world loan data.  
 The project focuses on full-data training, advanced feature engineering, interpretability (via SHAP), and reproducible model deployment artifacts.
 
 ---
 
-## 🚀 Overview
+## Overview
 - **Goal:** Predict SBA loan default risk (`MIS_Status`) using borrower, loan, and disbursement attributes.
 - **Approach:** End-to-end binary classification pipeline using **XGBoost**, optimized for **AUCPR** and **F1-score** thresholds.
 - **Deliverables:**
@@ -16,7 +16,7 @@ The project focuses on full-data training, advanced feature engineering, interpr
 
 ---
 
-## 🧠 Methodology
+## Methodology
 ### 🔹 1. Data Preprocessing
 - Loaded raw dataset: `SBA_loans_project_2.csv`
 - Filtered valid loan outcomes (`MIS_Status` = 0 or 1)
@@ -53,7 +53,7 @@ Used **SHAP (SHapley Additive exPlanations)** for post-hoc interpretability:
 
 ---
 
-## 📦 Output Artifacts
+## Output Artifacts
 All saved under `/artifacts`:
 | File | Description |
 |------|--------------|
@@ -63,7 +63,7 @@ All saved under `/artifacts`:
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 ```bash
 # 1. Clone repository
